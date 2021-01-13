@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43992" started-at="2021-01-13T17:40:09 IST" finished-at="2021-01-13T17:40:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43992" started-at="2021-01-13T17:40:09 IST" finished-at="2021-01-13T17:40:53 IST">
+      <class name="com.actitime.testscripts.CreateUser">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.actitime.testscripts.CreateUser@71bbf57e]" name="openBrowser" is-config="true" duration-ms="5937" started-at="2021-01-13T17:40:09 IST" finished-at="2021-01-13T17:40:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.testscripts.CreateUser@71bbf57e]" name="login" is-config="true" duration-ms="6082" started-at="2021-01-13T17:40:15 IST" finished-at="2021-01-13T17:40:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCreateUser()[pri:0, instance:com.actitime.testscripts.CreateUser@71bbf57e]" name="testCreateUser" duration-ms="27496" started-at="2021-01-13T17:40:21 IST" finished-at="2021-01-13T17:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscripts.CreateUser@71bbf57e]" name="logout" is-config="true" duration-ms="4" started-at="2021-01-13T17:40:48 IST" finished-at="2021-01-13T17:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.actitime.testscripts.CreateUser@71bbf57e]" name="closeBrowser" is-config="true" duration-ms="4430" started-at="2021-01-13T17:40:48 IST" finished-at="2021-01-13T17:40:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscripts.CreateUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
