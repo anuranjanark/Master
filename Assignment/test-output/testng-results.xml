@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28086" started-at="2021-02-02T20:41:11 IST" finished-at="2021-02-02T20:41:39 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="ProductTest.createProductTest()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="createProductTest" class="com.vtiger.productsModule.ProductTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="28086" started-at="2021-02-02T20:41:11 IST" finished-at="2021-02-02T20:41:39 IST">
+      <class name="com.vtiger.productsModule.ProductTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configBS" is-config="true" duration-ms="8" started-at="2021-02-02T20:41:11 IST" finished-at="2021-02-02T20:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBT()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configBT" is-config="true" duration-ms="0" started-at="2021-02-02T20:41:11 IST" finished-at="2021-02-02T20:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBT -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configBC" is-config="true" duration-ms="7610" started-at="2021-02-02T20:41:11 IST" finished-at="2021-02-02T20:41:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configBM" is-config="true" duration-ms="4498" started-at="2021-02-02T20:41:19 IST" finished-at="2021-02-02T20:41:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createProductTest()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="createProductTest" duration-ms="12846" started-at="2021-02-02T20:41:23 IST" finished-at="2021-02-02T20:41:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configAM" is-config="true" duration-ms="2304" started-at="2021-02-02T20:41:36 IST" finished-at="2021-02-02T20:41:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configAC" is-config="true" duration-ms="772" started-at="2021-02-02T20:41:38 IST" finished-at="2021-02-02T20:41:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAT()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configAT" is-config="true" duration-ms="0" started-at="2021-02-02T20:41:39 IST" finished-at="2021-02-02T20:41:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAT -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.vtiger.productsModule.ProductTest@528931cf]" name="configAS" is-config="true" duration-ms="1" started-at="2021-02-02T20:41:39 IST" finished-at="2021-02-02T20:41:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.vtiger.productsModule.ProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
