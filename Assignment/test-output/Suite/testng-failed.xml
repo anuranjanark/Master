@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.vtiger.productsModule.ProductTest">
+        <methods>
+          <include name="configBCParallel"/>
+          <include name="createProductTest"/>
+          <include name="configAS"/>
+          <include name="configBT"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="configAT"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.vtiger.productsModule.ProductTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
