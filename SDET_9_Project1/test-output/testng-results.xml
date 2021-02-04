@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20845" started-at="2021-02-03T21:13:48 IST" finished-at="2021-02-03T21:14:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20845" started-at="2021-02-03T21:13:48 IST" finished-at="2021-02-03T21:14:08 IST">
+      <class name="aws.practise.ParallelExecution">
+        <test-method status="PASS" signature="browserRun(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:aws.practise.ParallelExecution@2781e022]" name="browserRun" duration-ms="10242" started-at="2021-02-03T21:13:48 IST" data-provider="data" finished-at="2021-02-03T21:13:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserRun -->
+        <test-method status="PASS" signature="browserRun(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:aws.practise.ParallelExecution@2781e022]" name="browserRun" duration-ms="11735" started-at="2021-02-03T21:13:48 IST" data-provider="data" finished-at="2021-02-03T21:13:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserRun -->
+        <test-method status="PASS" signature="browserRun(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:aws.practise.ParallelExecution@2781e022]" name="browserRun" duration-ms="20805" started-at="2021-02-03T21:13:48 IST" data-provider="data" finished-at="2021-02-03T21:14:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserRun -->
+      </class> <!-- aws.practise.ParallelExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
