@@ -36,13 +36,14 @@ public class BaseClass {
 	}
 	@BeforeClass(groups= {"smoke","regression"})
 	public void configBC() throws Throwable {
-		if(fLib.getPropertyKeyValue("browser").equalsIgnoreCase("chrome")) {
+		String browserName = fLib.getPropertyKeyValue("browser");
+		if(browserName.equalsIgnoreCase("chrome")) {
 			 driver=new ChromeDriver();
 		}
-		else if(fLib.getPropertyKeyValue("browser").equalsIgnoreCase("firefox")) {
+		else if(browserName.equalsIgnoreCase("firefox")) {
 			 driver=new FirefoxDriver();	 
 		}
-		else if(fLib.getPropertyKeyValue("browser").equalsIgnoreCase("ie")) {
+		else if(browserName.equalsIgnoreCase("ie")) {
 			 driver=new InternetExplorerDriver();	 
 		}
 		driver.manage().window().maximize();
