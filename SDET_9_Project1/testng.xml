@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="assignments.MY"/>
+      <class name="com.practise.DynamicXpath_calendarPopUp2"/>
+      <class name="com.practise.DataProviderUsage"/>
+      <class name="assignments.LeadModule"/>
+      <class name="com.practise.SendAmount2"/>
+      <class name="assignments.MakeMyTrip"/>
+      <class name="com.practise.CalendarPopUpToSelectFutureDate"/>
+      <class name="com.practise.SendAmountTest"/>
+      <class name="assignments.CreateOrg"/>
+      <class name="assignments.CreateQuote"/>
+      <class name="com.practise.DynamicXpath_CalendarPopUp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
